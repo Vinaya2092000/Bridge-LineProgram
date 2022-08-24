@@ -7,6 +7,7 @@
             LineEquals emp = new LineEquals();
             emp.LineOne();
             emp.LineTwo();
+            emp.LineCompare();
         }
     }
 }
