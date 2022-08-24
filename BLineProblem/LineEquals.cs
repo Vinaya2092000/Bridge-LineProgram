@@ -48,8 +48,15 @@ namespace BLineProblem
         }
         public void LineCompare()
         {
-
+            if (ans1 == ans2)
+            {
+                Console.WriteLine("Lines are equal");
+            }
+            else
+            {
+                Console.WriteLine("Lines are not equal");
+            }
         }
-       
+
     }
 }
